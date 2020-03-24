@@ -75,6 +75,7 @@ const ArModalNoButton = props => {
 ArModalNoButton.propTypes = {
   showStatus: PropTypes.bool,
   title: PropTypes.node,
+  showStatus: PropTypes.bool,
   component: PropTypes.node,
   footer: PropTypes.node,
   id: PropTypes.string,
