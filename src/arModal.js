@@ -106,6 +106,7 @@ class ArModal extends React.Component {
 ArModal.propTyoes = {
   modalId: PropTypes.string,
   text: PropTypes.node,
+  showStatus: PropTypes.bool,
   handleSave: PropTypes.func,
   title: PropTypes.node,
   titleButton1: PropTypes.node,
